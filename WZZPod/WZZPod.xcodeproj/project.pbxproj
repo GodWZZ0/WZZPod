@@ -13,7 +13,7 @@
 		5194BE832109BC8800031CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5194BE822109BC8800031CF9 /* Assets.xcassets */; };
 		5194BE862109BC8800031CF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5194BE842109BC8800031CF9 /* LaunchScreen.storyboard */; };
 		5194BE892109BC8800031CF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5194BE882109BC8800031CF9 /* main.m */; };
-		5194BE912109BCA100031CF9 /* PrintString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5194BE902109BCA100031CF9 /* PrintString.m */; };
+		5194BE952109C30700031CF9 /* PrintString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5194BE932109C30700031CF9 /* PrintString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		5194BE852109BC8800031CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5194BE872109BC8800031CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5194BE882109BC8800031CF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5194BE8F2109BCA100031CF9 /* PrintString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintString.h; sourceTree = "<group>"; };
-		5194BE902109BCA100031CF9 /* PrintString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintString.m; sourceTree = "<group>"; };
+		5194BE932109C30700031CF9 /* PrintString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintString.m; sourceTree = "<group>"; };
+		5194BE942109C30700031CF9 /* PrintString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintString.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,7 @@
 		5194BE6D2109BC8700031CF9 = {
 			isa = PBXGroup;
 			children = (
+				5194BE922109C30700031CF9 /* Tool */,
 				5194BE782109BC8700031CF9 /* WZZPod */,
 				5194BE772109BC8700031CF9 /* Products */,
 			);
@@ -70,10 +71,17 @@
 				5194BE842109BC8800031CF9 /* LaunchScreen.storyboard */,
 				5194BE872109BC8800031CF9 /* Info.plist */,
 				5194BE882109BC8800031CF9 /* main.m */,
-				5194BE8F2109BCA100031CF9 /* PrintString.h */,
-				5194BE902109BCA100031CF9 /* PrintString.m */,
 			);
 			path = WZZPod;
+			sourceTree = "<group>";
+		};
+		5194BE922109C30700031CF9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5194BE932109C30700031CF9 /* PrintString.m */,
+				5194BE942109C30700031CF9 /* PrintString.h */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5194BE912109BCA100031CF9 /* PrintString.m in Sources */,
+				5194BE952109C30700031CF9 /* PrintString.m in Sources */,
 				5194BE7E2109BC8700031CF9 /* ViewController.m in Sources */,
 				5194BE892109BC8800031CF9 /* main.m in Sources */,
 				5194BE7B2109BC8700031CF9 /* AppDelegate.m in Sources */,
