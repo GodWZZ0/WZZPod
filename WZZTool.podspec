@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WZZTool"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "WZZTool description of WZZTool."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ don't worry about the indent, CocoaPods strips it
 
 
 
-  s.source       = { :git => "https://github.com/GodWZZ0/WZZPod.git", :tag => "v0.0.2" }
+  s.source       = { :git => "https://github.com/GodWZZ0/WZZPod.git", :tag => "v0.0.3" }
 
 
 
@@ -48,8 +48,8 @@ don't worry about the indent, CocoaPods strips it
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  #s.framework  = "UIKit"
+   s.frameworks = "UIKit","QuartzCore"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -61,9 +61,11 @@ don't worry about the indent, CocoaPods strips it
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+
+  #pod进来的第三方
   # s.dependency "JSONKit", "~> 1.4"
 
 end
