@@ -7,11 +7,6 @@ Pod::Spec.new do |s|
   s.version      = "0.0.3"
   s.summary      = "WZZTool description of WZZTool."
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
 don't worry about the indent, CocoaPods strips it
                    DESC
@@ -49,7 +44,7 @@ don't worry about the indent, CocoaPods strips it
   #
 
   #s.framework  = "UIKit"
-   s.frameworks = "UIKit","QuartzCore"
+   s.frameworks = 'UIKit'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
