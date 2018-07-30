@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WZZTool"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "WZZTool description of WZZTool."
 
   # This description is used to generate tags and improve search results.
@@ -28,11 +28,11 @@ don't worry about the indent, CocoaPods strips it
 
 
 
-  s.source       = { :git => "https://github.com/GodWZZ0/WZZPod.git", :tag => "v0.0.1" }
+  s.source       = { :git => "https://github.com/GodWZZ0/WZZPod.git", :tag => "v0.0.2" }
 
 
 
-  s.source_files  = "WZZPod/Tool/*.{h,m}"
+  s.source_files  = "WZZPod/WZZPod/Tool/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
 

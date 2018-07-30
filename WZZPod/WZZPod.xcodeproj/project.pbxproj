@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5134B034210EB9F7007D7E42 /* UILabel+WZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5134B033210EB9F7007D7E42 /* UILabel+WZZExtension.m */; };
 		5194BE7B2109BC8700031CF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5194BE7A2109BC8700031CF9 /* AppDelegate.m */; };
 		5194BE7E2109BC8700031CF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5194BE7D2109BC8700031CF9 /* ViewController.m */; };
 		5194BE812109BC8700031CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5194BE7F2109BC8700031CF9 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5134B032210EB9F7007D7E42 /* UILabel+WZZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+WZZExtension.h"; sourceTree = "<group>"; };
+		5134B033210EB9F7007D7E42 /* UILabel+WZZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WZZExtension.m"; sourceTree = "<group>"; };
 		5194BE762109BC8700031CF9 /* WZZPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZZPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5194BE792109BC8700031CF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5194BE7A2109BC8700031CF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 			children = (
 				5194BE972109C4A700031CF9 /* PrintString.h */,
 				5194BE982109C4A700031CF9 /* PrintString.m */,
+				5134B032210EB9F7007D7E42 /* UILabel+WZZExtension.h */,
+				5134B033210EB9F7007D7E42 /* UILabel+WZZExtension.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				5194BE7E2109BC8700031CF9 /* ViewController.m in Sources */,
 				5194BE892109BC8800031CF9 /* main.m in Sources */,
 				5194BE7B2109BC8700031CF9 /* AppDelegate.m in Sources */,
+				5134B034210EB9F7007D7E42 /* UILabel+WZZExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

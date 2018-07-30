@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UILabel+WZZExtension.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *label = [[UILabel alloc] initWithText:@"标签" textColor:[UIColor blueColor] fontSize:15];
+    label.frame = CGRectMake(100, 100, 100, 50);
+    [self.view addSubview:label];
 }
 
 
